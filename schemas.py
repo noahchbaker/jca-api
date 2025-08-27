@@ -66,9 +66,9 @@ class Major(BaseMajor):
     
 
 class BaseBuilding(BaseModel):
-    Name: str
-    Room: str
-    Capacity: int
+    name: str
+    room: str
+    capacity: int
 
 class CreateBuilding(BaseBuilding):
     pass 
